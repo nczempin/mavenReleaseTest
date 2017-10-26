@@ -11,7 +11,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.scm.id>mavenReleaseTest</project.scm.id>
+		<project.scm.id>bitbucket</project.scm.id>
 	</properties>
 
 
