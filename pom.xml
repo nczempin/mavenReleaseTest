@@ -12,6 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.scm.id>mavenReleaseTest</project.scm.id>
 	</properties>
 
 
@@ -56,7 +57,20 @@
 					</systemProperties>
 				</configuration>
 			</plugin>
+			<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-release-plugin</artifactId>
+			<version>2.5.1</version>
+			</plugin>
 		</plugins>
 	</build>
-
+	<scm>
+		<developerConnection>scm:git:https://nczempin@bitbucket.org/nczempin/mavenreleasetest.git</developerConnection>
+	</scm>
+	<repositories>
+		<repository>
+		<id>localDeploy</id>
+		<url>file:///dev/repositories/releases</url>
+		</repository>
+	</repositories>
 </project>
