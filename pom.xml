@@ -11,7 +11,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.scm.id>bitbucket</project.scm.id>
+		<project.scm.id>github</project.scm.id>
 	</properties>
 
 
@@ -64,7 +64,7 @@
 		</plugins>
 	</build>
 	<scm>
-		<developerConnection>scm:git:https://nczempin@bitbucket.org/nczempin/mavenreleasetest.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/nczempin/mavenReleaseTest.git</developerConnection>
 	  <tag>mavenReleaseTest-1.0</tag>
   </scm>
 	<repositories>
