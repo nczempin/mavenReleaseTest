@@ -65,7 +65,7 @@
 	</build>
 	<scm>
 		<developerConnection>scm:git:https://github.com/nczempin/mavenReleaseTest.git</developerConnection>
-	  <tag>mavenReleaseTest-1.0</tag>
+	  <tag>mavenReleaseTest-1.0.1</tag>
   </scm>
 	<repositories>
 		<repository>
