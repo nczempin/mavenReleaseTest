@@ -3,7 +3,7 @@
 
 	<groupId>de.czempin</groupId>
 	<artifactId>mavenReleaseTest</artifactId>
-	<version>1.2.1</version>
+	<version>1.2.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>mavenReleaseTest</name>
@@ -65,7 +65,7 @@
 	</build>
 	<scm>
 		<developerConnection>scm:git:https://github.com/nczempin/mavenReleaseTest.git</developerConnection>
-		<tag>mavenReleaseTest-1.2.1</tag>
+		<tag>mavenReleaseTest-1.2.0</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
