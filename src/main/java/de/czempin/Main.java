@@ -8,6 +8,6 @@ public class Main {
 
 		String version = resource.getString("version");
 
-		System.out.println("Version: " + version);
+		System.out.println("The version is: " + version);
 	}
 }

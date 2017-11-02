@@ -72,5 +72,9 @@
 			<id>localDeploy</id>
 			<url>file:///dev/repositories/releases</url>
 		</repository>
+		<snapshotRepository>
+		      <id>nexus</id>
+		      <url>http://192.168.1.99:8081/repository/maven-snapshots</url>
+		</snapshotRepository>
 	</distributionManagement>
 </project>
